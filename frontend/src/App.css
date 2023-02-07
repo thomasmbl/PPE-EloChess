@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 800px;
+}
+
+@media screen and (max-width: 320px){
+  .App{
+    width: 400px;
+    height: 930px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width:767px){
+  .App{
+    width: 110%;
+    height: 930px;
+  }
+}
+
+
+/*
+
+background-image: linear-gradient(black,75%, green);
+
+*/

@@ -1,0 +1,24 @@
+GET http://localhost:3001/eleves
+
+###
+
+GET http://localhost:3001/eleves/15
+
+###
+POST http://localhost:3001/eleves
+Content-Type: application/json
+
+{
+    "nom": "Louis",
+    "prenom": "Vuitton",
+    "section": "CM2",
+    "classe": "B",
+    "pseudo": "VuiTonton",
+    "mdp": "largent",
+    "elo": "1000",
+    "maison": "bleu",
+    "nbPartiesJoue": "47",
+    "nbPartiesGagne": "2",
+    "idEcole": "477A"
+}
+

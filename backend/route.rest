@@ -1,0 +1,27 @@
+GET http://localhost:3001/saisons
+
+####
+
+GET http://localhost:3001/saisons/638caf00b5b59180c660f16c
+
+###
+POST http://localhost:3001/saisons
+Content-Type: application/json
+
+{
+    "saisonNumber": "7",
+    "deathsNumber": "23"
+}
+
+###
+
+DELETE http://localhost:3001/saisons/638db4a06028d63d7ecf15b6
+
+###
+
+PATCH  http://localhost:3001/saisons/638caf00b5b59180c660f16c
+Content-Type: application/json
+
+{
+    "deathsNumber": "7"
+}

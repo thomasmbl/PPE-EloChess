@@ -1,0 +1,42 @@
+.topBar
+{
+    background-color: grey; 
+    padding: 0em 1em;
+    display: flex;
+}
+
+.TopRight{
+    width: 100%;
+    margin-left: 7%;
+    background-color: grey;
+    font-size: 100%;
+}
+.Title{
+    color: white;
+    font-size: 40px;
+    display: flex;
+}
+
+.Links{
+    display: flex;   
+    background-color: grey; 
+}
+.link{
+    color: white;
+    font-size: 25px;
+    text-decoration: none !important;
+}
+.icon{
+    position: absolute;
+    margin-left: -25px;
+}
+.Settings{
+    margin-left: 20%;
+}
+
+
+@font-face { 
+    font-family: 'HBB';
+    src: local('HBB'), url(../fonts/HBB.otf) format('opentype');
+}
+
