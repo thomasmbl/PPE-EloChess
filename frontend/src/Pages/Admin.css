@@ -49,8 +49,6 @@
 .mainContent form input,
 .mainContent form select{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
     display: inline-block;
     border: 1px solid grey;
     border-radius: 4px;
@@ -63,3 +61,16 @@
     padding: 14px 20px;
     cursor: pointer;
 }
+
+/*
+.mainContent form input,
+.mainContent form select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+*/
