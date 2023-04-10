@@ -9,8 +9,9 @@ POST http://localhost:3001/saisons
 Content-Type: application/json
 
 {
-    "saisonNumber": "7",
-    "deathsNumber": "23"
+    "saisonNumber": "89",
+    "deathsNumber": "23",
+    "nom": "98",
 }
 
 ###

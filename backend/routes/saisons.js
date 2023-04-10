@@ -43,6 +43,7 @@ router.patch('/:id', getSaison, async (req, res) => {
     if (req.body.nom != null) {
         res.saison.nom = req.body.nom
     }
+    
     try {
         const updatedSaison = await res.saison.save()
         res.json(updatedSaison)

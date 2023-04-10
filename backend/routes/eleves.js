@@ -26,8 +26,8 @@ router.post('/', async (req, res) => {
         section: req.body.section,
         classe: req.body.classe,
         pseudo: req.body.pseudo,
-        mdp: req.body.mdp,
-        elo: req.body.elo,
+        
+        elo: parseInt(req.body.elo),
         maison: req.body.maison,
         nbPartiesJoue: req.body.nbPartiesJoue,
         nbPartiesGagne: req.body.nbPartiesGagne,
@@ -59,9 +59,7 @@ router.patch('/:id', getEleve, async (req, res) => {
     if(req.body.pseudo != null) {
         res.eleve.pseudo = req.body.pseudo
     }
-    if(req.body.mdp != null) {
-        res.eleve.mdp = req.body.mdp
-    }
+    
     if(req.body.elo != null) {
         res.eleve.elo = req.body.elo
     }

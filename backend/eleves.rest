@@ -9,16 +9,20 @@ POST http://localhost:3001/eleves
 Content-Type: application/json
 
 {
-    "nom": "Louis",
+    "nom": "Maxime",
     "prenom": "Vuitton",
     "section": "CM2",
     "classe": "B",
     "pseudo": "VuiTonton",
     "mdp": "largent",
-    "elo": "1000",
+    "elo": 360,
     "maison": "bleu",
     "nbPartiesJoue": "47",
     "nbPartiesGagne": "2",
     "idEcole": "477A"
 }
+
+###
+
+DELETE http://localhost:3001/eleves/63e26632560c9880864f83af
 

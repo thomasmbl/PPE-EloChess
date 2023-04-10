@@ -23,11 +23,10 @@ const elevesSchema = new mongoose.Schema({
     },
     mdp: {
         type: String,
-        required: true
+        required: false
     },
     elo: {
-        type: String,
-        required: true
+        type: Number,
     },
     maison: {
         type: String,
@@ -49,44 +48,3 @@ const elevesSchema = new mongoose.Schema({
 })
 
 module.exports = mongoose.model('Eleves', elevesSchema)
-
-/*
-
-    section: {
-        type: String,
-        required: true
-    },
-    classe: {
-        type: String,
-        required: true
-    },
-    pseudo: {
-        type: String,
-        required: true
-    },
-    mdp: {
-        type: String,
-        required: true
-    },
-    elo: {
-        type: String,
-        required: true
-    },
-    maison: {
-        type: String,
-        required: true
-    },
-    nbPartiesJoue: {
-        type: String,
-        required: true
-    },
-    nbPartiesGagne: {
-        type: String,
-        required: true
-    },
-    idEcole: {
-        type: String,
-        required: true
-    },
-
-    */
