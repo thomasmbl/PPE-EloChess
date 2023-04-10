@@ -1,11 +1,162 @@
-.mainContent{
-    width: 100%;
-    margin-top: 20px;
+.mainContent {
+    width: 1500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
 }
+
+.outils{
+    display: flex;
+    margin-left: 75%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.refresh {
+    cursor: pointer;
+    margin-left: -50px;
+    margin-bottom: -15px;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    max-width: 500px;
+    box-shadow: 0 0 25px grey;
+    margin-top: 5%;
+
+}
+
+.table thead tr {
+    background-color: #808080;
+}
+
+.table thead th,
+.table thead td {
+    padding: 12px 12px;
+    min-width: 40px;
+
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: rgb(223, 219, 219);
+}
+
+.btn-delete {
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainContent form {
+    margin: auto;
+    /*max-width: 400px;*/
+    margin-top: 30px;
+}
+
+.mainContent form input[type="submit"] {
+    background: #429A19;
+    color:white;
+    box-shadow: 0px 2.23009px 2.23009px rgba(0, 0, 0, 0.25);
+    border-radius: 50.177px;
+    font-weight: bold;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container2 form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+}
+
+.container2 form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container2 form input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.submitAdd {
+    width: 80%;
+    margin-top: 191px;
+    margin-left: 25px;
+}
+
+label {
+    margin-left: 2%;
+    margin-right: 1%;
+    flex-wrap: nowrap;
+}
+
+input {
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+}
+
+.parametres {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.parametres input {
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: -28px;
+}
+
+/*
+.mainContent form input,
+.mainContent form select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+*/
+
+/*
+
 .mainContent input{
     width: 120px;
 }
-
+.tdd{
+    color: white;
+}
 
 .table{
     border-collapse: collapse;
@@ -60,17 +211,8 @@
     font-weight: bold;
     padding: 14px 20px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
-/*
-.mainContent form input,
-.mainContent form select{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid grey;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
+
 */

@@ -1,15 +1,25 @@
 .topBar
 {
-    background-color: grey; 
-    padding: 0em 1em;
+    background-color: transparent; 
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -50px
+    
+}
+
+.Banner{
+    width: 22%;
 }
 
 .TopRight{
     width: 100%;
     margin-left: 7%;
-    background-color: grey;
+    background-color: transparent;
     font-size: 100%;
+    margin-top: -40px
 }
 .Title{
     color: white;
@@ -19,19 +29,42 @@
 
 .Links{
     display: flex;   
-    background-color: grey; 
+    background-color: transparent; 
 }
 .link{
+    
     color: white;
-    font-size: 25px;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: black;
     text-decoration: none !important;
 }
+.mdp-input{
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none !important;
+}
+.mdp-input::placeholder {
+    color: white;
+  }
+
 .icon{
     position: absolute;
-    margin-left: -25px;
+    margin-left: -35px;
 }
+
+.Home{
+    margin-top: 20px;
+}
+
 .Settings{
-    margin-left: 20%;
+    margin-top: 20px;
 }
 
 

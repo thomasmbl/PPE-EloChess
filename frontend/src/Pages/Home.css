@@ -1,5 +1,168 @@
-
-.mainContent{
+.btn{
     color: white;
-    width: 100%;
+    background-color:#3043AB;
+    border-radius: 24px;
+    border:none;
+    padding:1%;
 }
+
+
+
+.parametres{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.parametres input{
+  padding: 10px; 
+  padding-right: 30px;
+  border-radius: 10px; 
+  border: 1px solid #ccc;
+  margin-right: -28px; 
+}
+
+
+.img{
+    width:25%;
+    height: 25%;
+}
+.img2{
+    width:60%;
+    height: 25%;
+}
+.table2 {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .table2 thead th:nth-child(1) {
+    width: 5%;
+  }
+  
+  .table2 thead th:nth-child(2) {
+    width: 10%;
+  }
+  
+  .table2 thead th:nth-child(3) {
+    width: 20%;
+  }
+  
+  .table2 thead th:nth-child(4) {
+    width: 5%;
+  }
+
+  .table2 thead th:nth-child(5){
+    width:5%;
+  }
+  .table2 thead th:nth-child(6){
+    width:10%;
+  }
+  
+  .table2 th, td {
+    padding: 20px;
+  }
+
+  
+.table2  tbody tr:nth-child(even) {
+    background-color: #EFEFEF;
+}
+
+.table2 thead{
+    color: #838383;
+}
+
+.rang{
+    font-size: xx-large;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  width: 30%; 
+  margin: 15px auto; 
+  border-radius: 10px;
+  padding: 10px; 
+}
+
+
+.Coupe{
+  width: 4%;
+}
+
+/*
+
+.button{
+    color: white;
+    background-color:#3043AB;
+    border-radius: 24px;
+    border:none;
+    padding:1%;
+    margin:1%;
+}
+
+
+.parametres{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img{
+    width:25%;
+    height: 25%;
+}
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .thead th:nth-child(1) {
+    width: 5%;
+  }
+  
+  .thead th:nth-child(2) {
+    width: 10%;
+  }
+  
+  .thead th:nth-child(3) {
+    width: 20%;
+  }
+  
+  .thead th:nth-child(4) {
+    width: 5%;
+  }
+
+  .thead th:nth-child(5){
+    width:5%;
+  }
+  .thead th:nth-child(6){
+    width:10%;
+  }
+  
+  .th, td {
+    padding: 20px;
+  }
+
+  
+.table tbody tr:nth-child(even) {
+    background-color: #EFEFEF;
+}
+
+.thead{
+    color: #838383;
+}
+
+.rang{
+    font-size: xx-large;
+}
+
+
+*/
